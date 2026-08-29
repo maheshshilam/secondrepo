@@ -1,0 +1,9 @@
+# Input values are received as strings, so they must be converted to float/int
+num1 = float(input("Enter first number: "))
+num2 = float(input("Enter second number: "))
+
+# Calculate the sum
+total = num1 + num2
+
+# Display result
+print(f"The sum of {num1} and {num2} is {total}")
